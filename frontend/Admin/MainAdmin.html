@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="MainAdminguide.css" />
+    <link rel="stylesheet" href="MainAdmin.css" />
+  </head>
+  <body>
+    
+    <div class="main-admin">
+      <div class="div">
+        
+        <!-- Start Information-->
+        <div class="window-food">
+            <div id="menu-container"></div>
+        </div>
+
+        <!--Menu-->
+        <div class="overlap-30">
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="text-wrapper-5">MENU</div>
+        </div>
+        <!--Link to AddMenu-->
+        <a href="AddMenu.html">
+        <button class="button-9">
+          <span class="password-15">เพิ่มเมนู</span>
+        </button></a>
+
+        <!--Link to ReserveMenu-->
+        <a href="ReserveAdmin.html">
+        <button class="overlap-32">
+          <span class="text-wrapper-6">รายการจอง</span>
+        </button></a>
+
+        <!--Category-->
+        <div id="category-container">
+          <div class="overlap-35">
+            <button class="rectangle-6" category-id="1">
+              <span class="text-wrapper-9">อาหารจานเดี่ยว</span>
+            </button>
+          </div>
+          
+          <div class="overlap-34">
+            <button class="rectangle-6" category-id="2">
+              <span class="text-wrapper-8">เมนูเส้น</span>
+            </button>
+          </div>
+          
+          <div class="overlap-33">
+            <button class="rectangle-6" category-id="3">
+              <span class="text-wrapper-7">อาหารญี่ปุ่น</span>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Add Search Bar-->
+        <div class="content-wrapper">
+          <input type="search" class="content" id="searchInput" placeholder="ค้นหาเมนูอาหาร" style="font-size: 20px;" oninput="searchMenu()"/>
+          </div>
+        </div>
+
+        <div class="frame">
+          <div class="overlap-group-2">
+            <div class="frame-2"><div class="text-wrapper-3">Skip to content</div></div>
+            <div class="frame-3">
+              <div class="auto-layout-wrapper">
+                <div class="auto-layout">
+                  <div class="frame-4"></div>
+                  <div class="frame-5"></div>
+                </div>
+              </div>
+
+              <!--Log Out + User Profile-->
+              <a href="/logout">
+                <div class="log-out-wrapper">
+                  <div class="log-out">Log Out</div>
+                </div>
+              </a>
+              <img class="img" src="https://c.animaapp.com/kvmV61Vo/img/ellipse-1@2x.png" />
+              <a href="AdminProfile.html">
+              <img class="user" src="https://c.animaapp.com/kvmV61Vo/img/user-1@2x.png" />
+            </div></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frame ล่าง-->
+        <div class="overlap-3">
+          <div class="rectangle-2"></div>
+          <div class="frame-wrapper">
+            <div class="frame-6">
+              <div class="text-wrapper-4">JONK FOOD IT</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+      <!-- Script -->
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="MainAdmin.js"></script>
+  </body>
+</html>
