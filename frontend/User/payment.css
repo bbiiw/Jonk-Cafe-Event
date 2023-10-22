@@ -1,0 +1,284 @@
+.payment {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.payment .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1600px;
+  position: relative;
+}
+
+.payment .frame {
+  position: absolute;
+  width: 464px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.payment .div-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 48px;
+  top: 0;
+  left: -976px;
+  background-color: #5b89bf;
+  overflow: hidden;
+}
+
+.payment .text-wrapper {
+  position: absolute;
+  width: 10px;
+  height: 268px;
+  top: 25px;
+  left: 8px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.payment .overlap-group-wrapper {
+  position: absolute;
+  width: 1930px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  background-color: #046683;
+}
+
+.payment .overlap-group {
+  position: relative;
+  width: 1822px;
+  height: 46px;
+  top: 14px;
+  left: 102px;
+}
+
+.payment .ellipse-wrapper {
+  position: absolute;
+  width: 1280px;
+  height: 46px;
+  top: 0;
+  left: 0;
+}
+
+.payment .ellipse {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -12px;
+  left: -6px;
+  object-fit: cover;
+}
+
+.payment .auto-layout {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 418.66px;
+  position: absolute;
+  top: 0;
+  left: 622px;
+}
+
+.payment .frame-2 {
+  position: relative;
+  width: 388.16px;
+  height: 40px;
+}
+
+.payment .frame-3 {
+  position: relative;
+  width: 393.19px;
+  height: 40px;
+}
+
+.payment .log-out-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 5px 9.27px 5px 9px;
+  position: absolute;
+  top: 6px;
+  left: 196px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #d0d7de;
+}
+
+.payment .log-out {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.payment .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 3px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.payment .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 105px;
+  top: 1495px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/JTAvlxCy/img/rectangle-136.svg);
+  background-size: 100% 100%;
+}
+
+.payment .frame-wrapper {
+  position: relative;
+  width: 645px;
+  height: 4px;
+  top: 53px;
+  left: 134px;
+}
+
+.payment .frame-4 {
+  position: relative;
+  width: 1280px;
+  height: 68px;
+  top: -16px;
+  left: -62px;
+  opacity: 0.42;
+}
+
+.payment .frame-5 {
+  position: relative;
+  width: 454px;
+  height: 18px;
+  top: 25px;
+  left: 16px;
+}
+
+.payment .text-wrapper-2 {
+  position: absolute;
+  height: 18px;
+  top: 25px;
+  left: -10px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.payment .rectangle-wrapper {
+  position: absolute;
+  width: 974px;
+  height: 942px;
+  top: 229px;
+  left: 408px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.payment .rectangle {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 268px;
+  left: 304px;
+  background-color: #e6b2b2;
+}
+
+.payment .rectangle-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 283px;
+  left: 1655px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 497px;
+  left: 1655px;
+  background-color: #fdfdfd;
+}
+
+.payment .rectangle-4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 700px;
+  left: 1655px;
+  background-color: #fdfdfd;
+}
+
+.payment .rectangle-5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 283px;
+  left: 1573px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 283px;
+  left: 1737px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-7 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 497px;
+  left: 1573px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-8 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 497px;
+  left: 1737px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-9 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 700px;
+  left: 1737px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-10 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 700px;
+  left: 1573px;
+  background-color: #ffffff;
+}

@@ -1,0 +1,353 @@
+.shop-user {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.shop-user .div {
+  background-color: #d9d9d9;
+  overflow: hidden;
+  width: 1920px;
+  height: 2000px;
+  position: relative;
+}
+
+.shop-user .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 105px;
+  top: 3554px;
+  left: 20px;
+}
+
+.shop-user .frame {
+  position: absolute;
+  width: 454px;
+  height: 18px;
+  top: 2930px;
+  left: 54px;
+}
+
+.shop-user .text-wrapper {
+  position: absolute;
+  height: 18px;
+  top: -1px;
+  left: 0;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.shop-user .overlap-group-wrapper {
+  position: absolute;
+  width: 1920px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.shop-user .overlap-group {
+  position: relative;
+  height: 72px;
+}
+
+.shop-user .div-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 48px;
+  top: 0;
+  left: 480px;
+  background-color: #5b89bf;
+  overflow: hidden;
+}
+
+.shop-user .text-wrapper-2 {
+  position: absolute;
+  width: 10px;
+  height: 268px;
+  top: 25px;
+  left: 8px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.shop-user .frame-2 {
+  position: absolute;
+  width: 1920px;
+  height: 72px;
+  top: 0;
+  left: 0;
+  background-color: #046683;
+}
+
+.shop-user .frame-3 {
+  position: absolute;
+  width: 1280px;
+  height: 40px;
+  top: 16px;
+  left: 594px;
+}
+
+.shop-user .auto-layout {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 418.66px;
+  position: absolute;
+  top: 0;
+  left: 470px;
+}
+
+.shop-user .frame-4 {
+  position: relative;
+  width: 388.16px;
+  height: 40px;
+}
+
+.shop-user .frame-5 {
+  position: absolute;
+  width: 393px;
+  height: 40px;
+  top: 0;
+  left: 938px;
+}
+
+.shop-user .log-out-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 5px 9.27px 5px 9px;
+  position: absolute;
+  top: 6px;
+  left: 196px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #d0d7de;
+}
+
+.shop-user .log-out {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.shop-user .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 3px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.shop-user .ellipse {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 6px;
+  left: 38px;
+  object-fit: cover;
+}
+
+.shop-user .overlap {
+  position: absolute;
+  width: 572px;
+  height: 229px;
+  top: 398px;
+  left: 126px;
+  background-color: #dcbd85;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.shop-user .element {
+  position: absolute;
+  width: 116px;
+  height: 120px;
+  top: 35px;
+  left: 66px;
+  object-fit: cover;
+}
+
+.shop-user .text-wrapper-3 {
+  top: 76px;
+  left: 293px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -1.28px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.shop-user .event-wrapper {
+  position: absolute;
+  width: 948px;
+  height: 1379px;
+  top: 366px;
+  left: 832px;
+  background-color: #7469696e;
+  border-radius: 20px;
+}
+
+.shop-user .event {
+  width: 518px;
+  height: 522px;
+  top: 308px;
+  left: 252px;
+  font-family: "Noto Sans", Helvetica;
+  font-weight: 400;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  color: #000000;
+}
+
+.shop-user .overlap-2 {
+  position: absolute;
+  width: 572px;
+  height: 229px;
+  top: 796px;
+  left: 126px;
+  background-color: #047b8373;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.shop-user .text-wrapper-4 {
+  top: 95px;
+  left: 213px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -1.28px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.shop-user .text-wrapper-5 {
+  width: 804px;
+  top: 148px;
+  left: 558px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  font-size: 85px;
+  text-align: center;
+  letter-spacing: -1.7px;
+  line-height: 48px;
+  position: absolute;
+  color: #000000;
+}
+
+.shop-user .rectangle-2 {
+  position: absolute;
+  width: 1930px;
+  height: 105px;
+  top: 1895px;
+  left: -10px;
+  background-color: #046683;
+}
+
+.shop-user .overlap-3 {
+  position: absolute;
+  width: 467px;
+  height: 710px;
+  top: 1109px;
+  left: 176px;
+}
+
+.shop-user .polygon {
+  width: 173px;
+  top: 166px;
+  left: 194px;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .img {
+  width: 173px;
+  top: 337px;
+  left: 100px;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .polygon-2 {
+  width: 173px;
+  top: 510px;
+  left: 191px;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .polygon-3 {
+  width: 173px;
+  top: 510px;
+  left: 0;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .polygon-4 {
+  width: 173px;
+  top: 176px;
+  left: 7px;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .polygon-5 {
+  width: 173px;
+  top: 0;
+  left: 294px;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .overlap-4 {
+  position: absolute;
+  width: 160px;
+  height: 365px;
+  top: 1455px;
+  left: 0;
+}
+
+.shop-user .polygon-6 {
+  width: 63px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 200px;
+}
+
+.shop-user .polygon-7 {
+  width: 160px;
+  top: 165px;
+  left: 0;
+  position: absolute;
+  height: 200px;
+}
