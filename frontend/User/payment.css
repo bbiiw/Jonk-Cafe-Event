@@ -8,6 +8,7 @@
 
 .payment .div {
   background-color: #ffffff;
+  overflow: hidden;
   width: 1920px;
   height: 1600px;
   position: relative;
@@ -140,7 +141,7 @@
   height: 105px;
   top: 1495px;
   left: 0;
-  background-image: url(https://c.animaapp.com/JTAvlxCy/img/rectangle-136.svg);
+  background-image: url(https://c.animaapp.com/G6qugXtz/img/rectangle-136.svg);
   background-size: 100% 100%;
 }
 
@@ -183,44 +184,196 @@
   white-space: nowrap;
 }
 
-.payment .rectangle-wrapper {
+.payment .overlap-2 {
+  position: absolute;
+  width: 1339px;
+  height: 1221px;
+  top: 239px;
+  left: 66px;
+}
+
+.payment .overlap-3 {
+  position: absolute;
+  width: 1339px;
+  height: 1221px;
+  top: 0;
+  left: 0;
+}
+
+.payment .rectangle {
   position: absolute;
   width: 974px;
-  height: 942px;
-  top: 229px;
-  left: 408px;
+  height: 887px;
+  top: 0;
+  left: 365px;
   background-color: #d9d9d9;
   border-radius: 20px;
 }
 
-.payment .rectangle {
-  position: relative;
+.payment .img {
+  position: absolute;
   width: 400px;
   height: 400px;
-  top: 268px;
-  left: 304px;
-  background-color: #e6b2b2;
+  top: 271px;
+  left: 652px;
+  object-fit: cover;
+}
+
+.payment .text-wrapper-3 {
+  position: absolute;
+  width: 570px;
+  top: 93px;
+  left: 567px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -1.28px;
+  line-height: 48px;
+}
+
+.payment .polygon {
+  top: 677px;
+  left: 194px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-2 {
+  top: 848px;
+  left: 100px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-3 {
+  top: 1021px;
+  left: 191px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-4 {
+  top: 1021px;
+  left: 0;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-5 {
+  top: 687px;
+  left: 7px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-6 {
+  top: 511px;
+  left: 294px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .overlap-4 {
+  position: absolute;
+  width: 300px;
+  height: 113px;
+  top: 1022px;
+  left: 729px;
+  background-image: url(https://c.animaapp.com/G6qugXtz/img/rectangle-137.png);
+  background-size: 100% 100%;
+}
+
+.payment .text-wrapper-4 {
+  position: absolute;
+  width: 250px;
+  top: 23px;
+  left: 26px;
+  transform: rotate(-0.23deg);
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.payment .overlap-5 {
+  position: absolute;
+  width: 270px;
+  height: 410px;
+  top: 283px;
+  left: 1444px;
 }
 
 .payment .rectangle-2 {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 283px;
-  left: 1655px;
+  top: 0;
+  left: 211px;
   background-color: #ffffff;
+}
+
+.payment .overlap-6 {
+  position: absolute;
+  width: 270px;
+  height: 410px;
+  top: 0;
+  left: 0;
 }
 
 .payment .rectangle-3 {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 497px;
-  left: 1655px;
+  top: 214px;
+  left: 211px;
   background-color: #fdfdfd;
 }
 
 .payment .rectangle-4 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 129px;
+  background-color: #ffffff;
+}
+
+.payment .rectangle-5 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 214px;
+  left: 129px;
+  background-color: #ffffff;
+}
+
+.payment .polygon-7 {
+  top: 45px;
+  left: 0;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .polygon-8 {
+  top: 210px;
+  left: 97px;
+  position: absolute;
+  width: 173px;
+  height: 200px;
+}
+
+.payment .rectangle-6 {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -229,30 +382,20 @@
   background-color: #fdfdfd;
 }
 
-.payment .rectangle-5 {
+.payment .overlap-7 {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 283px;
-  left: 1573px;
-  background-color: #ffffff;
-}
-
-.payment .rectangle-6 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 283px;
-  left: 1737px;
-  background-color: #ffffff;
+  width: 190px;
+  height: 534px;
+  top: 158px;
+  left: 1730px;
 }
 
 .payment .rectangle-7 {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 497px;
-  left: 1573px;
+  top: 125px;
+  left: 7px;
   background-color: #ffffff;
 }
 
@@ -260,9 +403,33 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 497px;
-  left: 1737px;
+  top: 339px;
+  left: 7px;
   background-color: #ffffff;
+}
+
+.payment .polygon-9 {
+  position: absolute;
+  width: 90px;
+  height: 200px;
+  top: 161px;
+  left: 100px;
+}
+
+.payment .polygon-10 {
+  position: absolute;
+  width: 173px;
+  height: 200px;
+  top: 334px;
+  left: 0;
+}
+
+.payment .polygon-11 {
+  position: absolute;
+  width: 173px;
+  height: 200px;
+  top: 0;
+  left: 7px;
 }
 
 .payment .rectangle-9 {
@@ -282,3 +449,52 @@
   left: 1573px;
   background-color: #ffffff;
 }
+
+.payment .polygon-12 {
+  position: absolute;
+  width: 173px;
+  height: 200px;
+  top: 8px;
+  left: -2804px;
+}
+
+.payment .polygon-13 {
+  position: absolute;
+  width: 50px;
+  height: 200px;
+  top: 1261px;
+  left: 0;
+}
+
+.payment .overlap-8 {
+  position: absolute;
+  width: 273px;
+  height: 366px;
+  top: -1106px;
+  left: -660px;
+}
+
+.payment .polygon-14 {
+  position: absolute;
+  width: 173px;
+  height: 200px;
+  top: 166px;
+  left: 0;
+}
+
+.payment .polygon-15 {
+  position: absolute;
+  width: 173px;
+  height: 200px;
+  top: 0;
+  left: 100px;
+}
+
+.payment .polygon-16 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -596px;
+  left: -676px;
+}
+

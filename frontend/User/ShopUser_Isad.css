@@ -188,8 +188,6 @@
 .shop-user .text-wrapper-3 {
   top: 76px;
   left: 293px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 64px;
@@ -197,9 +195,11 @@
   letter-spacing: -1.28px;
   line-height: 36px;
   white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
 }
 
-.shop-user .event-wrapper {
+.shop-user .overlap-2 {
   position: absolute;
   width: 948px;
   height: 1379px;
@@ -209,21 +209,92 @@
   border-radius: 20px;
 }
 
-.shop-user .event {
-  width: 518px;
-  height: 522px;
-  top: 308px;
-  left: 252px;
-  font-family: "Noto Sans", Helvetica;
-  font-weight: 400;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: 36px;
+.shop-user .element-wrapper {
   position: absolute;
-  color: #000000;
+  width: 948px;
+  height: 225px;
+  top: 434px;
+  left: 0;
+  background-color: #48a0b694;
+  border-radius: 20px;
 }
 
-.shop-user .overlap-2 {
+.shop-user .element-2 {
+  top: 92px;
+  left: 316px;
+  font-weight: 400;
+  color: #0e0e0e;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+}
+
+.shop-user .overlap-3 {
+  position: absolute;
+  width: 948px;
+  height: 186px;
+  top: 17px;
+  left: 0;
+  background-color: #48a0b694;
+  border-radius: 20px;
+}
+
+.shop-user .img {
+  position: absolute;
+  width: 247px;
+  height: 132px;
+  top: 27px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.shop-user .text-wrapper-4 {
+  top: 76px;
+  left: 426px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+}
+
+.shop-user .overlap-4 {
+  position: absolute;
+  width: 948px;
+  height: 186px;
+  top: 220px;
+  left: 0;
+  background-color: #48a0b694;
+  border-radius: 20px;
+}
+
+.shop-user .th {
+  position: absolute;
+  width: 250px;
+  height: 148px;
+  top: 19px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.shop-user .text-wrapper-5 {
+  position: absolute;
+  width: 348px;
+  top: 69px;
+  left: 426px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shop-user .overlap-5 {
   position: absolute;
   width: 572px;
   height: 229px;
@@ -235,11 +306,9 @@
   border-color: #000000;
 }
 
-.shop-user .text-wrapper-4 {
+.shop-user .text-wrapper-6 {
   top: 95px;
-  left: 213px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
+  left: 285px;
   font-weight: 700;
   color: #000000;
   font-size: 64px;
@@ -247,20 +316,31 @@
   letter-spacing: -1.28px;
   line-height: 36px;
   white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
 }
 
-.shop-user .text-wrapper-5 {
+.shop-user .table {
+  position: absolute;
+  width: 135px;
+  height: 120px;
+  top: 62px;
+  left: 47px;
+  object-fit: cover;
+}
+
+.shop-user .text-wrapper-7 {
+  position: absolute;
   width: 804px;
   top: 148px;
   left: 558px;
   font-family: "Inter", Helvetica;
   font-weight: 700;
+  color: #000000;
   font-size: 85px;
   text-align: center;
   letter-spacing: -1.7px;
   line-height: 48px;
-  position: absolute;
-  color: #000000;
 }
 
 .shop-user .rectangle-2 {
@@ -272,7 +352,7 @@
   background-color: #046683;
 }
 
-.shop-user .overlap-3 {
+.shop-user .overlap-6 {
   position: absolute;
   width: 467px;
   height: 710px;
@@ -288,7 +368,7 @@
   height: 200px;
 }
 
-.shop-user .img {
+.shop-user .polygon-2 {
   width: 173px;
   top: 337px;
   left: 100px;
@@ -296,7 +376,7 @@
   height: 200px;
 }
 
-.shop-user .polygon-2 {
+.shop-user .polygon-3 {
   width: 173px;
   top: 510px;
   left: 191px;
@@ -304,7 +384,7 @@
   height: 200px;
 }
 
-.shop-user .polygon-3 {
+.shop-user .polygon-4 {
   width: 173px;
   top: 510px;
   left: 0;
@@ -312,7 +392,7 @@
   height: 200px;
 }
 
-.shop-user .polygon-4 {
+.shop-user .polygon-5 {
   width: 173px;
   top: 176px;
   left: 7px;
@@ -320,7 +400,7 @@
   height: 200px;
 }
 
-.shop-user .polygon-5 {
+.shop-user .polygon-6 {
   width: 173px;
   top: 0;
   left: 294px;
@@ -328,7 +408,7 @@
   height: 200px;
 }
 
-.shop-user .overlap-4 {
+.shop-user .overlap-7 {
   position: absolute;
   width: 160px;
   height: 365px;
@@ -336,7 +416,7 @@
   left: 0;
 }
 
-.shop-user .polygon-6 {
+.shop-user .polygon-7 {
   width: 63px;
   top: 0;
   left: 0;
@@ -344,10 +424,11 @@
   height: 200px;
 }
 
-.shop-user .polygon-7 {
+.shop-user .polygon-8 {
   width: 160px;
   top: 165px;
   left: 0;
   position: absolute;
   height: 200px;
 }
+
